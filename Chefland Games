@@ -1,0 +1,13 @@
+In Chefland, a tennis game involves 4 referees.Each referee has to point out whether he considers the ball to be inside limits or outside limits. The ball is
+considered to be IN if and only if all the referees agree that it was inside limits.Given the decision of the 4 referees, help Chef determine whether the ball is
+considered inside limits or not.
+
+
+
+t= int(input())
+for i in range (t):
+    a,b,c,d= map(int,input().split())
+    if a==0 and b==0 and c==0 and d==0 :
+        print("IN")
+    else:
+        print("OUT")
