@@ -1,0 +1,13 @@
+A problem setter is called an expert if at least 50% of their problems are approved by Chef.Munchy submitted X problems for approval. 
+If Y problems out of those were approved, find whether Munchy is an expert or not.
+
+
+
+
+t=int(input())
+for i in range(t):
+    x,y=map(int,input().split())
+    if y/x*100<50:
+        print('NO')
+    else:
+        print('YES')
